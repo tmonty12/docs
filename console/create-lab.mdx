@@ -1,0 +1,40 @@
+---
+title: 'Lab'
+description: 'Your high-powered AI development environment'
+icon: 'flask'
+---
+
+Each Lab has a name, image, GPU type and number of GPUs as well as an optional storage connection.
+
+<Note>You are currently limited to only having 1 lab active at a time.</Note>
+
+## Name
+
+The name of your Lab environment. Used to uniquely identify your lab. 
+
+## Image
+
+The base image defines the libraries that come installed in your Lab environment. Currently, we just support ```pytorch``` but are looking to support ```tensorflow```, ```stable-diffusion``` and others in the future.
+
+If you have an image you would like to see supported, please let us know.
+
+## GPU(s)
+
+We support different NVIDIA GPU types on our platform. Each type comes with a specific amount of VRAM and processing power as well as the credits used per hour. _Link info to GPU types here._ We currently support:
+- ```RTX 3090```
+- ```RTX 4090```
+- ```RTX A6000```
+- ```RTX 8000```
+- ```A100```
+- ```V100```
+
+You also configure the number of GPU(s) to power your Lab. Currently we just support 1-2 but are looking to support larger clusters in the future.
+
+## Google Drive
+
+You need to first [connect your Drive](google-drive). Once connected, you can toggle Google Drive connection on/off when launching a Lab. The folder defaults to the one you selected in the Google Drive page but can be overriden on the Create Lab page.
+
+On Lab launch, all files from the folder selected will be copied to the Lab. At any point in time you can copy files from your Lab to Google Drive or vice versa. Upon closing a Lab, all files on your Lab will be saved to your Drive folder.
+
+
+

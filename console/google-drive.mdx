@@ -1,0 +1,47 @@
+---
+title: 'Google Drive'
+description: ''
+icon: 'google'
+---
+
+Google Drive enables you to bring any files you'd like to your Lab and save any files you create.
+
+This is good for transporting Jupyter Notebook files, datasets and model checkpoints.
+
+The only other option for moving files is uploading and downloading from the Lab itself. We recommend that if you are using files over 10 MB, to use Google Drive instead of the Lab interface for transportings.
+
+## Connecting
+
+You first need to [connect your Drive](google-drive) in order to use it with a Lab.
+
+## Automatic Copies
+
+When you have enabled Google Drive connection on your Lab, all files from the folder you selected will be copied over when the Lab is first created.
+
+Likewise, when you close your Lab, all files on yor Lab will be copied to your Google Drive folder.
+
+## Copy to Lab
+
+At any point in time, you can copy the files from your Google Drive to your Lab.
+
+Say you wanted to test fine-tuning on a new dataset you had locally. You can upload the dataset to your Google Drive folder and then click the "Copy to Lab" button.
+
+## Copy to Drive
+
+Likewise, at any point in time you can copy files from your Lab to your Google Drive.
+
+If you had a model checkpoint that was generated that you would like to test locally, you can click the "Copy to Drive" button, and then download the checkpoint from Drive.
+
+## Selecting Folders
+
+In the Google Drive Connection page you can select a default folder. In the Launch Lab page, you can override this default. 
+
+This folder is where files are copied from and where files are copied too.
+
+<Note>Only files in a sub directory of the Lab are copied to your Google Drive</Note>
+
+## Disconnecting
+
+You have the option to disconnect your Google Drive. This deletes the Google Auth token from our backend. 
+
+To connect again, you follow the same flow.
