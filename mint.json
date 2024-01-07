@@ -8,47 +8,33 @@
   "favicon": "/favicon.svg",
   "colors": {
     "primary": "#0D9373",
-    "light": "#07C983",
+    "light": "#21F8F6",
     "dark": "#0D9373",
     "anchors": {
       "from": "#0D9373",
       "to": "#07C983"
     }
   },
+  "modeToggle": {
+    "default": "dark",
+    "isHidden": false
+  },
   "topbarCtaButton": {
     "name": "Console",
     "url": "https://console.agoralabs.io"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
   "navigation": [
     {
       "group": "Get Started",
-      "pages": ["introduction", "quickstart", "google-drive"]
+      "pages": ["introduction", "quickstart", "connect-google-drive"]
     },
     {
       "group": "Console",
-      "pages": ["console/create-lab", "console/google-drive", "console/buy-credits"]
+      "pages": ["console/lab", "console/google-drive", "console/credits"]
     },
     {
       "group": "Essentials",
       "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
-    },
-    {
-      "group": "API Documentation",
-      "pages": ["api-reference/introduction"]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
-      ]
     }
   ],
   "footerSocials": {
