@@ -5,7 +5,7 @@
     "dark": "/logo/logo.png",
     "light": "/logo/logo.png"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/logo/logo.png",
   "colors": {
     "primary": "#0D9373",
     "light": "#21F8F6",
@@ -17,11 +17,11 @@
   },
   "modeToggle": {
     "default": "dark",
-    "isHidden": false
+    "isHidden": true
   },
   "topbarCtaButton": {
     "name": "Console",
-    "url": "https://console.agoralabs.io"
+    "url": "https://www.agoralabs.io"
   },
   "navigation": [
     {
