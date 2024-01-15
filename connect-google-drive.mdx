@@ -3,32 +3,93 @@ title: 'Connect Google Drive'
 description: 'Copy files to and from your Lab'
 ---
 
-Navigate to the Connect Google Drive page.
+Navigate to the **Google Drive** page.
+<Frame>
+  <img
+    src="/images/ConnectGDrivePage.png"
+  />`
+</Frame>
 
 <Steps>
   <Step title="Connect Drive">
     Click the ```Connect``` button.
 
     Select the Google account you would like to connect.
+    <Frame>
+      <img
+        src="/images/SelectGAccount.png"
+      />
+    </Frame>
 
-    Give Agora Labs permission.
+    <Warning>
+      We are currently going through the Google Verification process which takes months to complete. 
+
+      We take data security **seriously** and assure your data is secure. 
+    </Warning>
+
+    Click on **Advanced**
+    <Frame>
+      <img
+        src="/images/GoogleNonVerified.png"
+      />
+    </Frame>
+
+    Click **Go to agoralabs.io**
+    <Frame>
+      <img
+        src="/images/GoToAgora.png"
+      />
+    </Frame>
+
+    Click **Allow** to give Agora Labs permission to your Drive
+    <Frame>
+      <img
+        src="/images/GiveAgoraPermission.png"
+      />
+    </Frame>
   </Step>
   <Step title="Select Folder">
     Click the ```Select Folder``` button.
+    <Frame>
+      <img
+        src="/images/DriveConnected.png"
+      />
+    </Frame>
 
     Select the folder in your Google drive you would like copy and save files from.
+    <Frame>
+      <img
+        src="/images/SelectFolderPicker.png"
+      />
+    </Frame>
 
     Click the ```Select``` button on the Drive picker.
+    <Frame>
+      <img
+        src="/images/SelectedDriveFolder.png"
+      />
+    </Frame>
   </Step>
   <Step title="Launch your Lab">
     Follow the steps in [Quickstart](quickstart) to launch your Lab. Make sure you toggle on the Drive connection.
+    <Frame>
+      <img
+        src="/images/CreateDeploymentDriveEnabled.png"
+      />
+    </Frame>
 
     When your Lab is launched, all files in your Google Drive folder will be automatically copied to your lab.
   </Step>
   <Step title="Copy Files">
-    At any point in time you can click ```Copy to Drive``` to copy any new files from your Lab to your Drive folder.
+    At any point in time you can click ```Save to Drive``` to copy any new files from your Lab to your Drive folder.
 
-    Likewise, you can click ```Copy to Lab``` to copy any new files in your Drive folder to your Lab.
+    <Frame>
+      <img
+        src="/images/CopyFilesButtons.png"
+      />
+    </Frame>
+
+    Likewise, you can click ```Upload from Drive``` to copy any new files in your Drive folder to your Lab.
   </Step>
   <Step title="Close your Lab">
     When you're done with your work, click the ```Close``` button to close your Lab. Any new files on your Lab will be copied to your Drive folder.

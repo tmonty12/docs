@@ -3,37 +3,74 @@ title: 'Quickstart'
 description: 'Get to your AI task in less than 5 minutes'
 ---
 
-<img
-  height="200"
-  src="/images/CreateLabPage.gif"
-/>
-Navigate to the Create Lab page.
+Navigate to **Home** and click on **Jupyter Lab**.
+
+<Frame>
+  <img
+    src="/images/CreateLabPage.png"
+  />
+</Frame>
 
 
 <Steps>
+  <Step title="Connect Google Drive (Optional)">
+    If you would like to have a folder from your Google Drive copied to your Jupyter Lab and save any newly created files to your Drive, you will first need to [connect your Drive](connect-google-drive).
+
+    Once connected, toggle on the connection and select the folder you would like to copy from and save to.
+    <Frame>
+      <img
+        src="/images/SelectDriveFolder.png"
+      />
+    </Frame>
+  </Step>
   <Step title="Name your Lab">
     Give your lab a fun name.
+    <Frame>
+      <img
+        src="/images/NameLab.png"
+      />
+    </Frame>
   </Step>
   <Step title="Select an Image">
     Select the base image for your development environment. For now we just support ```pytorch``` but in the future will support custom images like ```stable-diffusion```.
+    <Frame>
+      <img
+        src="/images/SelectImage.png"
+      />
+    </Frame>
   </Step>
   <Step title="Configure your GPU(s)">
     Select your GPU type based on your development needs.
 
     Specify the number of GPUs you need. For now, we are just supporting 1-2 GPUs but plan to expand to larger clusters in the future.
-  </Step>
-  <Step title="Connect Google Drive (Optional)">
-    If you would like to have a folder from your Google Drive copied to your development environment and save any newly created files to your Drive, you will first need to [connect your Drive](connect-google-drive).
-
-    Once connected, toggle on the connection and select the folder you would like to copy from and save to.
+    <Frame>
+      <img
+        src="/images/SelectGPU.png"
+      />
+    </Frame>
   </Step>
   <Step title="Launch Lab">
     Click the Launch button and wait for your Lab to become available.
+    <Frame>
+      <img
+        src="/images/WaitForLabAvailable.png"
+      />
+    </Frame>
   </Step>
   <Step title="Open your Lab">
     Click the ```Open``` button to open up the Jupyter Lab interface.
+    <Frame>
+      <img
+        src="/images/OpenLab.png"
+      />
+    </Frame>
 
     You're now ready to perform any AI task!
+    <Frame>
+      <img
+        src="/images/JupyterLabInterface.png"
+      />
+    </Frame>
   </Step>
   <Step title="Close your Lab">
     When you're finished with your work, click the ```Close``` button.
